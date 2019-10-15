@@ -1,10 +1,20 @@
 .type-4 {
+    background: #d4e9db;
     .just {
         h2 {
             line-height: 1;
             display: block;
             margin-block-start: 0.83em;
             margin-block-end: 0.83em;
+            font: normal 20px/28px "Cinzel";
+            text-align: center;
+        }
+        .line-left {
+            display: inline-block;
+            padding-top: 2px;
+            width: 100%;
+            border-top: 1px solid #fff;
+            border-bottom: 1px solid #fff;
         }
     }
 }
