@@ -1,0 +1,54 @@
+.type-15 {
+  font-family: Cinzel;
+  background-image: url("../images/15-6.png");
+}
+
+.type-15 .title {
+  font: normal 20px/28px "Cinzel";
+  text-align: center;
+  padding-top: 15px;
+}
+
+.type-15 .cmt {
+  font: normal 12px/18px "Cinzel";
+  color: #889988;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.type-15 .fix {
+  padding-top: 15px;
+}
+
+.type-15 .fix img {
+  display: block;
+  margin: 0 auto;
+}
+
+.type-15 .fix h5 {
+  text-align: center;
+}
+
+.type-15 .fix h5 a {
+  text-align: center;
+  font: normal 12px/16px "Cinzel";
+  color: #393939;
+}
+
+.type-15 .fix h5 a:hover {
+  color: #f07677;
+  text-decoration: none;
+}
+
+.type-15 .thanks {
+  color: #f07677;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+  .type-15 .rol {
+    margin-bottom: 15px;
+  }
+}
