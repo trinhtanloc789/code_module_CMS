@@ -1,0 +1,50 @@
+.type-22{
+    margin-top: 30px;
+    .box{
+        display: flex;
+        width: 100%;
+        
+
+        .line-left{
+            width: 44%;
+            border-top: 1px solid #889988;
+            border-bottom: 1px solid #889988;
+            margin: 9px;
+        }
+        .people{
+            width: 12%;
+            font-family: "Cinzel";
+            font-size: 16px;
+            text-align: center;
+        }
+        .line-right{
+            width: 44%;
+            border-top: 1px solid #889988;
+            border-bottom: 1px solid #889988;
+            margin: 9px;
+        }
+    }
+    
+    .col-md-4{
+        text-align: center;
+        padding: 20px;
+ 
+        border: 1px solid #ddd;
+        
+        .name{
+            font: 300 24px/30px "Clicker Script";
+            margin-top: .4em;
+            margin-bottom: .4em;
+            color: #83a98a;
+        }
+        .time{
+            font-size: 9px;
+            font: normal 12px/20px "Cinzel";
+            color: #cacaca;
+        }
+        p{
+            color: #898989;
+            font: normal 12px/18px "Cinzel";
+        }
+    }
+}
