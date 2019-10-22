@@ -1,33 +1,38 @@
 @font-face {
     font-family: Clicker Script;
-    src: url(../fonts/ClickerScript-Regular.ttf)
+    src: url(../fonts/ClickerScript-Regular.ttf);
 }
 
 @font-face {
     font-family: Cinzel;
-    src: url(../fonts/Cinzel-Regular.ttf)
+    src: url(../fonts/Cinzel-Regular.ttf);
 }
 
+/*# sourceMappingURL=27.css.map */
 .type-27 {
-    $h3-color: #f07677;
-    $h5-color: #393939;
-    $border-color: #ddd;
+    $color_1: #f07677;
+    $color_2: #393939;
+    $font_family_1: Clicker Script;
+    $font_family_2: Cinzel;
+
     .text {
-        border-top: 1px solid $border-color;
-        border-bottom: 1px solid $border-color;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
         padding: 30px 0;
+
         h3 {
             font-size: 30px;
             line-height: 30px;
-            color: $h3-color;
+            color: $color_1;
             text-align: center;
-            font-family: Clicker Script;
+            font-family: $font_family_1;
         }
+
         h5 {
             font-size: 12px;
             line-height: 16px;
-            font-family: Cinzel;
-            color: $h5-color;
+            font-family: $font_family_2;
+            color: $color_2;
             text-align: center;
         }
     }

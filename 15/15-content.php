@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Clicker+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./css/15.css">
-    <title>Module 15</title>
-</head>
-
-<body>
-    <div class="type-15">
+<div class="type-15">
         <div class="container">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4647830431386!2d106.75635931480137!3d10.852210192270116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752797e321f8e9%3A0xb3ff69197b10ec4f!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEPDtG5nIG5naOG7hyBUaOG7pyDEkOG7qWM!5e0!3m2!1svi!2s!4v1571624099152!5m2!1svi!2s"
@@ -96,6 +89,3 @@
             </div>
         </div>
     </div>
-</body>
-
-</html>

@@ -1,12 +1,27 @@
-.type-4 {
-    font-family: "Cinzel";
-    background-image: url('../images/4-2.png');
-    padding-bottom: 50px;
+@font-face {
+    font-family: Clicker Script;
+    src: url(../fonts/ClickerScript-Regular.ttf);
+}
 
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+.type-4 {
+
+    $color_1: #f07677;
+    $font_family_1: Cinzel;
+    $font_family_2: Clicker Script;
+
+    font-family: $font_family_1;
+    background-image: url("../images/4-2.png");
+    padding-bottom: 50px;
 
     .linemain {
         display: flex;
         width: 100%;
+        margin-bottom: 50px;
 
         .line-left {
             width: 48%;
@@ -29,42 +44,45 @@
             padding-top: 2px;
             margin: 10px;
         }
-
-        margin-bottom: 50px;
     }
 
     .time {
         text-align: center;
         font-size: 1.2em;
         margin-bottom: 10px;
+
         .okmen {
-           
             font-size: 90px;
-            font-family: "Clicker Script";
-            color: #f07677;
+            font-family: $font_family_2;
+            color: $color_1;
         }
-        .fixH{
+
+        .fixH {
             text-align: right;
         }
-        .fixM{
+
+        .fixM {
             text-align: right;
         }
-        .fixS{
+
+        .fixS {
             text-align: right;
         }
-        
     }
-  
-    .getmarried{
+
+    .getmarried {
         padding-top: 40px;
         text-align: center;
         font: normal 20px/28px "Cinzel";
     }
-    @media (max-width:980px){
+}
+
+@media (max-width: 980px) {
+    .type-4 {
         background: url(../images/4-2.png);
-        .nameTime{
+
+        .nameTime {
             display: none;
         }
     }
-
 }

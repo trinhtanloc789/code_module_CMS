@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Clicker Script;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
 .type-14 {
   font-family: Cinzel;
 }
@@ -15,13 +25,13 @@
 
 .type-14 .name {
   text-align: center;
-  font: 300 24px/30px "Clicker Script";
+  font: 300 24px/30px Clicker Script;
   color: #83a98a;
 }
 
 .type-14 .name-cmt {
   text-align: center;
-  font: normal 12px/20px "Cinzel";
+  font: normal 12px/20px Cinzel;
   color: #cacaca;
 }
 

@@ -1,40 +1,67 @@
-.type-14{
+@font-face {
+    font-family: Clicker Script;
+    src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
     font-family: Cinzel;
-    img{
-        display: block; margin-left: auto; margin-right: auto;
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+.type-14 {
+
+    $color_1: #83a98a;
+    $color_2: #cacaca;
+    $color_3: #a1a1a1;
+    $color_4: #000000;
+    $font_family_1: Cinzel;
+
+    font-family: $font_family_1;
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .title{
+
+    .title {
         text-align: center;
         padding: 30px 0 40px;
     }
-    .name{
+
+    .name {
         text-align: center;
-        font: 300 24px/30px "Clicker Script";
-        color: #83a98a;
+        font: 300 24px/30px Clicker Script;
+        color: $color_1;
     }
-    .name-cmt{
+
+    .name-cmt {
         text-align: center;
-        font: normal 12px/20px "Cinzel";
-        color: #cacaca;
+        font: normal 12px/20px Cinzel;
+        color: $color_2;
     }
-    .icon{
+
+    .icon {
         text-align: center;
-        
-        .fa-facebook-f{
+
+        .fa-facebook-f {
             width: 18px;
             height: 18px;
-            color: #a1a1a1;
-            &:hover{
-                color: #000000;
+            color: $color_3;
+
+            &:hover {
+                color: $color_4;
             }
         }
-        .fa-twitter{
+
+        .fa-twitter {
             width: 18px;
             height: 18px;
             margin-left: 7px;
-            color: #a1a1a1;
-            &:hover{
-                color: #000000;
+            color: $color_3;
+
+            &:hover {
+                color: $color_4;
             }
         }
     }

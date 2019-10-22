@@ -1,4 +1,32 @@
+
+@font-face {
+    font-family: Clicker Script;
+    src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+@keyframes down {
+    from {
+        top: -50px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
 .type-15 {
+
+    $color_1: #898989;
+    $color_2: #fff;
+    $color_3: #f07677;
+    $color_4: #f17677;
+    $font_family_1: Cinzel;
+
 
     iframe {
         width: 100%;
@@ -6,20 +34,18 @@
     }
 
     label {
-        color: #898989;
-        font-family: Cinzel;
+        color: $color_1;
+        font-family: $font_family_1;
     }
 
     input {
         &:focus {
-
             border: 1px solid #f07677;
         }
     }
 
     textarea {
         &:focus {
-
             border: 1px solid #f07677;
         }
     }
@@ -29,9 +55,9 @@
     }
 
     a {
-        font-family: Cinzel;
+        font-family: $font_family_1;
         background: #f07677;
-        color: #fff;
+        color: $color_2;
         border: none;
         font-size: 14px;
         line-height: 1px;
@@ -44,7 +70,7 @@
 
         &:hover {
             border: 1px solid #f07677;
-            color: #f07677;
+            color: $color_3;
             background: oldlace;
         }
     }
@@ -59,31 +85,29 @@
         cursor: pointer;
         text-align: center;
         margin-top: 50px;
-        color: #f17677;
-        font: normal 30px/30px "Clicker Script";
+        color: $color_4;
+        font: normal 30px/30px Clicker Script;
     }
 
     p {
         display: none;
         text-align: center;
-        color: #898989;
+        color: $color_1;
         font-size: 0.8em;
     }
 
     .map {
         display: none;
-        color: #f07677;
+        color: $color_3;
         text-decoration: underline;
         text-align: center;
         font-size: 0.8em;
     }
 
     .pih {
-
         cursor: pointer;
 
         .icon {
-
             transform: scale(1);
         }
 
@@ -97,13 +121,12 @@
                 margin-top: 10px;
                 text-align: center;
                 display: block;
-
             }
 
             .map {
                 cursor: pointer;
                 display: block;
-                color: #f07677;
+                color: $color_3;
                 text-decoration: underline;
                 text-align: center;
                 font-size: 0.8em;
@@ -123,17 +146,6 @@
                 display: block;
                 animation: down .5s ease;
             }
-
-        }
-    }
-
-    @keyframes down {
-        from {
-            top: -50px;
-        }
-
-        to {
-            top: 0;
         }
     }
 }

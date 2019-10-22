@@ -15,15 +15,12 @@ $url_path = str_replace('\\', '/', $url_path);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.css">
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/all.js"></script>
-    <link rel="stylesheet" href="./css/swiper.min.css">
-    <link rel="stylesheet" href="./css/2.css">
-    <title>module 2</title>
+    <link rel="stylesheet" href="./css/15.css">
+    <title>Module 15</title>
 </head>
-    <?php include './2-content.php'; ?>
+
 <body>
-    
+    <?php include './15-content.php'; ?>
 </body>
 
 </html>

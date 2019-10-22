@@ -1,16 +1,21 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
 .type-8 {
   font-family: Cinzel;
   background-image: url("../images/8-6.png");
 }
 
 .type-8 .title {
-  font: normal 20px/28px "Cinzel";
+  font: normal 20px/28px Cinzel;
   text-align: center;
   padding-top: 15px;
 }
 
 .type-8 .cmt {
-  font: normal 12px/18px "Cinzel";
+  font: normal 12px/18px Cinzel;
   color: #889988;
   text-align: center;
   padding-top: 15px;
@@ -31,7 +36,7 @@
 
 .type-8 .fix h5 a {
   text-align: center;
-  font: normal 12px/16px "Cinzel";
+  font: normal 12px/16px Cinzel;
   color: #393939;
 }
 

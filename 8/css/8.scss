@@ -1,48 +1,68 @@
-.type-8{
+
+@font-face {
     font-family: Cinzel;
-    background-image: url('../images/8-6.png');
-    .title{
-        font: normal 20px/28px "Cinzel";
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+.type-8 {
+
+    $color_1: #889988;
+    $color_2: #393939;
+    $color_3: #f07677;
+    $font_family_1: Cinzel;
+
+
+    font-family: $font_family_1;
+    background-image: url("../images/8-6.png");
+
+    .title {
+        font: normal 20px/28px Cinzel;
         text-align: center;
-        padding-top: 15px; 
+        padding-top: 15px;
     }
-    .cmt{
-        font: normal 12px/18px "Cinzel";
-        color: #889988;
+
+    .cmt {
+        font: normal 12px/18px Cinzel;
+        color: $color_1;
         text-align: center;
-        padding-top: 15px; 
+        padding-top: 15px;
     }
-    .fix{
-        padding-top: 15px; 
-        
-        img{
+
+    .fix {
+        padding-top: 15px;
+
+        img {
             display: block;
             margin: 0 auto;
-            
-           
         }
-    h5{
-        text-align: center;
-        a{
+
+        h5 {
             text-align: center;
-            font: normal 12px/16px "Cinzel";
-            color: #393939;
-            &:hover{
-                color:#f07677;
-                text-decoration: none;
+
+            a {
+                text-align: center;
+                font: normal 12px/16px Cinzel;
+                color: $color_2;
+
+                &:hover {
+                    color: $color_3;
+                    text-decoration: none;
+                }
             }
         }
-        
     }
-}
-    .thanks{
-        color: #f07677;
+
+    .thanks {
+        color: $color_3;
         text-align: center;
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    @media (max-width:480px) {
-        .rol{
+}
+
+@media (max-width: 480px) {
+    .type-8 {
+        .rol {
             margin-bottom: 15px;
         }
     }

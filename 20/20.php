@@ -6,6 +6,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,15 +15,12 @@ $url_path = str_replace('\\', '/', $url_path);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.css">
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/all.js"></script>
-    <link rel="stylesheet" href="./css/swiper.min.css">
-    <link rel="stylesheet" href="./css/2.css">
-    <title>module 2</title>
+    <link rel="stylesheet" href="./css/20.css">
+    <title>Module 20</title>
 </head>
-    <?php include './2-content.php'; ?>
+
 <body>
+    <?php include './20-content.php'; ?>
     
 </body>
 

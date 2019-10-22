@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Clicker Script;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
 .type-19 {
-  font-family: "Cinzel";
+  font-family: Cinzel;
 }
 
 .type-19 .borderlr .lol {
@@ -70,7 +80,7 @@
 
 .type-19 .cmt {
   color: #f07677;
-  font: normal 30px/30px "Clicker Script";
+  font: normal 30px/30px Clicker Script;
   margin-top: .4em;
   margin-bottom: .4em;
   text-align: center;

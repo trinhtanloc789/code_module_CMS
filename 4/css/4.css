@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Clicker Script;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
 .type-4 {
-  font-family: "Cinzel";
+  font-family: Cinzel;
   background-image: url("../images/4-2.png");
   padding-bottom: 50px;
 }
@@ -40,7 +50,7 @@
 
 .type-4 .time .okmen {
   font-size: 90px;
-  font-family: "Clicker Script";
+  font-family: Clicker Script;
   color: #f07677;
 }
 

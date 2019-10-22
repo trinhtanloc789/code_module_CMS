@@ -1,3 +1,22 @@
+@font-face {
+  font-family: Clicker Script;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+@keyframes down {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0;
+  }
+}
+
 .type-15 iframe {
   width: 100%;
   margin-bottom: 40px;
@@ -52,7 +71,7 @@
   text-align: center;
   margin-top: 50px;
   color: #f17677;
-  font: normal 30px/30px "Clicker Script";
+  font: normal 30px/30px Clicker Script;
 }
 
 .type-15 p {
@@ -113,13 +132,4 @@
 .type-15 .pih:hover .content {
   display: block;
   animation: down .5s ease;
-}
-
-@keyframes down {
-  from {
-    top: -50px;
-  }
-  to {
-    top: 0;
-  }
 }

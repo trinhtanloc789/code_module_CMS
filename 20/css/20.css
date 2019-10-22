@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Clicker Script;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
 .type-20 {
   margin-top: 30px;
 }
@@ -16,7 +26,7 @@
 
 .type-20 .box .people {
   width: 12%;
-  font-family: "Cinzel";
+  font-family: Cinzel;
   font-size: 16px;
   text-align: center;
 }
@@ -35,7 +45,7 @@
 }
 
 .type-20 .colsize .name {
-  font: 300 24px/30px "Clicker Script";
+  font: 300 24px/30px Clicker Script;
   margin-top: .4em;
   margin-bottom: .4em;
   color: #83a98a;
@@ -43,11 +53,11 @@
 
 .type-20 .colsize .time {
   font-size: 9px;
-  font: normal 12px/20px "Cinzel";
+  font: normal 12px/20px Cinzel;
   color: #cacaca;
 }
 
 .type-20 .colsize p {
   color: #898989;
-  font: normal 12px/18px "Cinzel";
+  font: normal 12px/18px Cinzel;
 }
