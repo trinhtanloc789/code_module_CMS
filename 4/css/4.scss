@@ -1,0 +1,54 @@
+.type-4 {
+    font-family: "Cinzel";
+    background-image: url('../images/4-1.png');
+    padding-bottom: 50px;
+
+    .linemain {
+        display: flex;
+        width: 100%;
+
+        .line-left {
+            width: 48%;
+            border-top: 1px solid #f8f9f8;
+            border-bottom: 1px solid #f8f9f8;
+            padding-top: 2px;
+            margin: 10px;
+        }
+
+        .just {
+            width: 4%;
+            font: normal 20px/28px;
+            text-align: center;
+        }
+
+        .line-right {
+            width: 48%;
+            border-top: 1px solid #f8f9f8;
+            border-bottom: 1px solid #f8f9f8;
+            padding-top: 2px;
+            margin: 10px;
+        }
+
+        margin-bottom: 50px;
+    }
+
+    .time {
+        text-align: center;
+        .okmen {
+           
+            font-size: 90px;
+            font-family: "Clicker Script";
+            color: #f07677;
+        }
+        // .okgirl{
+        //     text-align: center;
+        // }
+
+    }
+    .getmarried{
+        padding-top: 40px;
+        text-align: center;
+        font: normal 20px/28px "Cinzel";
+    }
+
+}

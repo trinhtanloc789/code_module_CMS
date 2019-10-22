@@ -3,8 +3,10 @@
   color: #f07677;
   margin: 5px auto;
   vertical-align: baseline;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
   font-family: 'Cinzel', serif;
 }
 
@@ -19,8 +21,10 @@
   color: #898989;
   font: normal 12px/18px "Cinzel";
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
 }
 
 .type_3 .dmy {
@@ -46,3 +50,4 @@
     text-align: center;
   }
 }
+/*# sourceMappingURL=3.css.map */

@@ -1,54 +1,139 @@
-.type-15 {
+.type-17 iframe {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.type-17 label {
+  color: #898989;
   font-family: Cinzel;
-  background-image: url("../images/15-6.png");
 }
 
-.type-15 .title {
-  font: normal 20px/28px "Cinzel";
-  text-align: center;
-  padding-top: 15px;
+.type-17 input:focus {
+  border: 1px solid #f07677;
 }
 
-.type-15 .cmt {
-  font: normal 12px/18px "Cinzel";
-  color: #889988;
-  text-align: center;
-  padding-top: 15px;
+.type-17 textarea:focus {
+  border: 1px solid #f07677;
 }
 
-.type-15 .fix {
-  padding-top: 15px;
+.type-17 img {
+  width: 40px;
 }
 
-.type-15 .fix img {
-  display: block;
-  margin: 0 auto;
-}
-
-.type-15 .fix h5 {
-  text-align: center;
-}
-
-.type-15 .fix h5 a {
-  text-align: center;
-  font: normal 12px/16px "Cinzel";
-  color: #393939;
-}
-
-.type-15 .fix h5 a:hover {
-  color: #f07677;
-  text-decoration: none;
-}
-
-.type-15 .thanks {
-  color: #f07677;
-  text-align: center;
+.type-17 a {
+  font-family: Cinzel;
+  background: #f07677;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  line-height: 1px;
+  border-radius: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
 }
 
-@media (max-width: 480px) {
-  .type-15 .rol {
-    margin-bottom: 15px;
+.type-17 a:hover {
+  border: 1px solid #f07677;
+  color: #f07677;
+  background: oldlace;
+}
+
+.type-17 .icon {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.type-17 .address {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 50px;
+  color: #f17677;
+  font: normal 30px/30px "Clicker Script";
+}
+
+.type-17 p {
+  display: none;
+  text-align: center;
+  color: #898989;
+  font-size: 0.8em;
+}
+
+.type-17 .map {
+  display: none;
+  color: #f07677;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.type-17 .pih {
+  cursor: pointer;
+}
+
+.type-17 .pih .icon {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.type-17 .pih .content {
+  display: none;
+  position: relative;
+  top: 0%;
+}
+
+.type-17 .pih .content p {
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+}
+
+.type-17 .pih .content .map {
+  cursor: pointer;
+  display: block;
+  color: #f07677;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
+.type-17 .pih:hover {
+  border: 3px solid #f1f1f1;
+}
+
+.type-17 .pih:hover .icon {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.type-17 .pih:hover .content {
+  display: block;
+  -webkit-animation: down .5s ease;
+          animation: down .5s ease;
+}
+
+@-webkit-keyframes down {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0;
   }
 }
+
+@keyframes down {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0;
+  }
+}
+/*# sourceMappingURL=15.css.map */

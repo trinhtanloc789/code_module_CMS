@@ -1,49 +1,139 @@
-.type-15{
-    font-family: Cinzel;
-    background-image: url('../images/15-6.png');
-    .title{
-        font: normal 20px/28px "Cinzel";
-        text-align: center;
-        padding-top: 15px; 
+.type-17 {
+
+    iframe {
+        width: 100%;
+        margin-bottom: 40px;
     }
-    .cmt{
-        font: normal 12px/18px "Cinzel";
-        color: #889988;
-        text-align: center;
-        padding-top: 15px; 
+
+    label {
+        color: #898989;
+        font-family: Cinzel;
     }
-    .fix{
-        padding-top: 15px; 
-        
-        img{
-            display: block;
-            margin: 0 auto;
-            
-           
+
+    input {
+        &:focus {
+
+            border: 1px solid #f07677;
         }
-    h5{
-        text-align: center;
-        a{
-            text-align: center;
-            font: normal 12px/16px "Cinzel";
-            color: #393939;
-            &:hover{
-                color:#f07677;
-                text-decoration: none;
-            }
-        }
-        
     }
-}
-    .thanks{
-        color: #f07677;
-        text-align: center;
+
+    textarea {
+        &:focus {
+
+            border: 1px solid #f07677;
+        }
+    }
+
+    img {
+        width: 40px;
+    }
+
+    a {
+        font-family: Cinzel;
+        background: #f07677;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        line-height: 1px;
+        border-radius: 20px;
         padding-top: 15px;
         padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+
+        &:hover {
+            border: 1px solid #f07677;
+            color: #f07677;
+            background: oldlace;
+        }
     }
-    @media (max-width:480px) {
-        .rol{
-            margin-bottom: 15px;
+
+    .icon {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+    .address {
+        cursor: pointer;
+        text-align: center;
+        margin-top: 50px;
+        color: #f17677;
+        font: normal 30px/30px "Clicker Script";
+    }
+
+    p {
+        display: none;
+        text-align: center;
+        color: #898989;
+        font-size: 0.8em;
+    }
+
+    .map {
+        display: none;
+        color: #f07677;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .pih {
+
+        cursor: pointer;
+
+        .icon {
+
+            transform: scale(1);
+        }
+
+        .content {
+            display: none;
+            position: relative;
+            top: 0%;
+
+            p {
+                cursor: pointer;
+                margin-top: 10px;
+                text-align: center;
+                display: block;
+
+            }
+
+            .map {
+                cursor: pointer;
+                display: block;
+                color: #f07677;
+                text-decoration: underline;
+                text-align: center;
+                font-size: 0.8em;
+                margin-bottom: 30px;
+            }
+        }
+
+        &:hover {
+            border: 3px solid #f1f1f1;
+
+            .icon {
+                transition: all .5s;
+                transform: scale(2);
+            }
+
+            .content {
+                display: block;
+                animation: down .5s ease;
+            }
+
+        }
+    }
+
+    @keyframes down {
+        from {
+            top: -50px;
+        }
+
+        to {
+            top: 0;
         }
     }
 }

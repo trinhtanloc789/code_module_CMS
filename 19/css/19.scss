@@ -1,0 +1,82 @@
+.type-21 {
+    font-family: "Cinzel";
+
+    .borderlr {
+        .lol {
+            border-left: 2px solid #f1f1f1;
+            border-right: 2px solid #f1f1f1;
+            border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 50px;
+
+            textarea {
+                margin-top: 50px;
+                width: 97%;
+                &:focus{
+                    border: 1px solid #f07677;
+                    outline: none;
+                }
+            }
+
+            input {
+                width: 94%;
+                &:focus{
+                    border: 1px solid #f07677;
+                    outline: none;
+                }
+                
+            }
+            
+            
+
+            a{
+               
+                color: #f1f1f1;
+                background: #f07677;
+                border: none;
+                border-radius: 30px;
+                &:hover{
+                    color: #f07677;
+                    background: #ffffff;
+                    border: 1px solid #f07677 ;
+                }
+            }
+        }
+
+        .box {
+            display: flex;
+            width: 100%;
+
+            .line-left {
+                width: 47%;
+                border-top: 2px solid #f1f1f1;
+                margin: 10px;
+            }
+
+            .sayhi {
+                width: 6%;
+                text-align: center;
+
+            }
+
+            .line-right {
+                width: 47%;
+                border-top: 2px solid #f1f1f1;
+                margin: 10px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .cmt {
+        color: #f07677;
+        font: normal 30px/30px "Clicker Script";
+        margin-top: .4em;
+        margin-bottom: .4em;
+        text-align: center;
+    }
+
+}
