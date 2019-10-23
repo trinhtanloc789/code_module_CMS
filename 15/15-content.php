@@ -44,7 +44,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <p>London, N10 3LY</p>
                             <p>Tel: 02 562-958</p>
                             <div class="map">
-                                <span>Map <i class="fas fa-long-arrow-alt-right"></i></span>
+                                <span >Map <i class="fas fa-long-arrow-alt-right"></i></span>
                             </div>
                         </div>
 
