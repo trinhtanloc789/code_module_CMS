@@ -11,7 +11,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img class="img-responsive" src="./images/2-1.png">
+                    <img class="img-responsive" src="./images/2-1.png" alt="2-1">
                     <div class="wrap">
                         <div class="txt">
                         <p> I have the most </p> 
@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
 
                 <div class="swiper-slide">
-                    <img class="img-responsive" src="./images/2-3.png">
+                    <img class="img-responsive" src="./images/2-3.png" alt="2-3">
                     <div class="wrap">
                         <div class="txt">
                         <p> I have the most </p> 
@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img class="img-responsive" src="./images/2-4.png">
+                    <img class="img-responsive" src="./images/2-4.png" alt="2-4">
                     <div class="wrap">
                         <div class="txt">
                            
