@@ -50,4 +50,4 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
 
     </div>
-    <script src="./js/4.js"></script>
+

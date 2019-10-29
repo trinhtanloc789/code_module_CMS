@@ -15,7 +15,6 @@ $url_path = str_replace('\\', '/', $url_path);
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.css">
-
     <link rel="stylesheet" href="./css/14.css">
     <title>Module 14</title>
 </head>
