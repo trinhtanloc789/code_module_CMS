@@ -56,7 +56,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   .type_3 {
     display: inline-block;
     text-align: center;
