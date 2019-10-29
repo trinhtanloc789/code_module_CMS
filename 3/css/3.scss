@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Clicker Script;
+    src: url(../fonts/ClickerScript-Regular.ttf);
+}
 
 @font-face {
     font-family: Cinzel;
@@ -14,14 +17,12 @@
     margin-top:50px;
 
 	.name {
+		font-family: Clicker Script;
 		text-align: center;
 		color: $color_1;
-		margin: 5px auto;
+		margin: 5px auto; 
 		vertical-align: baseline;
-		-webkit-margin-before: 1em;
-		margin-block-start: 1em;
-		-webkit-margin-after: 1em;
-		margin-block-end: 1em;
+		font-size: 25px;
 		
 	}
 	img {
@@ -54,11 +55,15 @@
 		line-height: 1;
 		text-align: center;
 	}
+	
 }
 @media screen and (max-width: 480px) {
 	.type_3 {
 		display: inline-block;
 		text-align: center;
+		.dmy{
+			margin-bottom: 40px;
+		}
     }
     
 }
