@@ -7,8 +7,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 
-<div class="type-4">
-        
+<div class="type-4">      
         <div class="container">
             <div class="linemain">
                 <div class="line-left">

@@ -7,15 +7,15 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-2">
-
+    <div class="container">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img class="img-responsive" src="./images/2-1.png" alt="2-1">
                     <div class="wrap">
                         <div class="txt">
-                        <p> I have the most </p> 
-                           <p>romantic man!</p>
+                            <p> I have the most </p>
+                            <p>romantic man!</p>
                         </div>
                     </div>
                 </div>
@@ -24,8 +24,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <img class="img-responsive" src="./images/2-3.png" alt="2-3">
                     <div class="wrap">
                         <div class="txt">
-                        <p> I have the most </p> 
-                           <p>romantic man!</p>
+                            <p> I have the most </p>
+                            <p>romantic man!</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <img class="img-responsive" src="./images/2-4.png" alt="2-4">
                     <div class="wrap">
                         <div class="txt">
-                           
+
                         </div>
                     </div>
                 </div>
@@ -43,6 +43,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
+    </div>
 
     <!-- Swiper JS -->
     <script src="./js/swiper.min.js"></script>
